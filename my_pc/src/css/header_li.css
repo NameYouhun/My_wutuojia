@@ -1,0 +1,102 @@
+#header_wrap_lzh{
+    height: 80px;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.header_fl_lzh{
+    margin-top:20px ;
+    margin-left:30px;
+    height: 40px;
+}
+.header_nav_lzh{
+    margin-left: 80px;
+    height: 40px;
+    line-height: 40px;
+}
+.header_nav_lzh>li{
+    float: left;
+    width: 90px;
+    height: 100%;
+}
+.header_nav_lzh>li>a{
+    float: left;
+}
+.header_nav_lzh> .zg_li_lzh{
+    width: 150px;
+}
+.zg_span_lzh{
+    padding: 2px;
+    margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+    background: #333333;
+}
+
+.header_ss_lzh{
+    width: 40px;
+    height: 40px;
+}
+.header_icon_lzh{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: url("../img/wtjicon.png") no-repeat 0 0;
+    margin-top: 9px;
+}
+
+.header_fr_lzh{
+    padding-right:2px ;
+    height: 80px;
+    margin-right: 20px;
+}
+.header_fr_tp_lzh{
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background: #333333;
+
+}
+.header_fr_tp_lzh>a{
+    color: #fff;
+    font-size: 12px;
+    line-height: 30px;
+}
+.header_fr_tp_span1_lzh{
+    display: inline-block;
+    width: 28px;
+    height: 19px;
+    background: url("../img/mybuild_btn.png") no-repeat center/cover;
+    margin: 5px 5px 5px 10px;
+}
+.header_fr_login_lzh{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 70px;
+    height: 30px;
+    padding: 15px 0;
+}
+.header_fr_login_lzh  i{
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    background: url("../img/login-no.png") no-repeat center;
+}
+
+.header_fr_login_lzh  em{
+    font-style: normal;
+    display: inline-block;
+    vertical-align: middle;
+    width: 14px;
+    height: 14px;
+    background: url("../img/wtjicon.png") no-repeat -52px -22px;
+    margin-left: 10px;
+}
