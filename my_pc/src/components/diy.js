@@ -10,7 +10,7 @@ class Diy extends React.Component{
     render(){
         return(
             <div>
-
+                <h1>diy</h1>
             </div>
         )
     }

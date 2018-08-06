@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import Header_li from './components/header_li'
+import Home from './components/home'
+import App from './App'
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Header_li />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
