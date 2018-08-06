@@ -1,0 +1,137 @@
+.footer_li{
+    background: #f0f0f0;
+    color: #999;
+    min-width: 1200px;
+    overflow: hidden;
+}
+.footer_wrap_li{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+.footer_top_li{
+    padding-bottom:40px;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+    margin-bottom:34px;
+}
+.footer_top_li ul li{
+    padding-left: 82px;
+    position: relative;
+    float: left;
+    width: 360px;
+}
+.footer_top_li li i{
+    background: url("../img/b_ic.png") no-repeat 0 0;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+}
+.footer_top_li .footer_tu_lzh{
+    background-position: 0 0;
+    top: 10px;
+    width: 58px;
+    height: 36px;
+}
+.footer_top_li .footer_tu2_lzh{
+    background-position: -66px 0;
+    top: 0px;
+    width: 49px;
+    height: 49px;
+}
+.footer_top_li .footer_tu3_lzh{
+    background-position: -123px 0;
+    top: 0px;
+    width: 47px;
+    height: 47px;
+}
+.footer_top_li li span{
+    font-size: 24px;
+    color: #333;
+    line-height: 24px;
+    font-family: Microsoft Yahei;
+}
+.footer_top_li li p{
+    color: #999;
+    font-size: 16px;
+    margin-top: 6px;
+    font-family: Microsoft Yahei;
+}
+.footer_top_li ul .footer_v250_lzh{
+    width: 250px;
+    float: right;
+    box-sizing: border-box;
+}
+.footer_logo_lzh{
+    float: left;
+    font-size: 12px;
+}
+.footer_logo_lzh img{
+    border: 0;
+    width: 114px;
+    height: 52px;
+}
+.footer_logo_p_lzh{
+    margin-top: 65px;
+}
+.f_list_lzh{
+    display: inline-block;
+    font-size: 12px;
+    font-family: Microsoft Yahei;
+}
+.about-us_lzh{
+    float: left;
+    width: 170px;
+}
+.about-us_lzh span{
+    font-weight: normal;
+    font-size: 18px;
+    color: #333333;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.about-us_lzh ul li{
+    height: 24px;
+    line-height: 24px;
+}
+.about-us_lzh ul li a{
+    color: #999;
+}
+.about-us_lzh ul li a:hover{
+    color: #333;
+}
+.qrcode_lzh{
+    float: left;
+    width: 130px;
+}
+.qrcode_lzh img{
+    width: 130px;
+    height: 130px;
+}
+.qrcode_lzh p{
+    text-align: center;
+    margin-top: 7px;
+}
+.f_yqlj_lzh{
+    width: 1200px;
+    margin:0 auto;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.f_yqlj_a_lzh a{
+    margin-right: 13px;
+    color: #999;
+    display: inline-block;
+    line-height: 23px;
+}
+.f_yqlj_a_lzh a:hover{
+    color: #333;
+}
+.f_yqlj_div_lzh{
+    float: left;
+    width: 1040px;
+    padding-right: 50px;
+}

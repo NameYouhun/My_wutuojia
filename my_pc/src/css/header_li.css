@@ -1,5 +1,6 @@
 #header_wrap_lzh{
     height: 80px;
+    min-width: 1200px;
     background: #fff;
     border-bottom: 1px solid #ccc;
 }
