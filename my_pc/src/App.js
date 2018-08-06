@@ -17,6 +17,7 @@ class App extends Component {
                   <Route path="/idea" component={Idea}></Route>
                   <Redirect to="/home"/>
               </Switch>
+              
           </div>
         </Router>
     );
