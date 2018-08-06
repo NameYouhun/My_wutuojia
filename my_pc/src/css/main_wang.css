@@ -6,11 +6,14 @@ em,i{
 .top_wang{
 	width: 1200px;
 	margin: 0 auto;
-	border: 1px solid red;
+	
 }
 .top_wang ul{
 	width: 1200px;
 	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 .bt_wang{
 	background: url(../img/wtjicon.png) no-repeat 0px -136px;
@@ -18,15 +21,30 @@ em,i{
     height: 44px;
     display: inline-block;
     text-indent: -99999px;
+    
 }
 
 .list_wang li{
-	float: left;
-	width: 300px;
+	
+	width: 280px;
     height: 405px;
     float: left;
     margin-top: 10px;
     position: relative;
+}
+.rec_wang{
+	background-color: #f0f0f0;
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 402px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.rec2_wang{
+	position: absolute;
+    padding: 12px;
 }
 .list_wang li .t1_wang{
 	display: inline-block;
@@ -71,7 +89,7 @@ em,i{
     width: 270px;
     padding: 12px;
     padding-left: 18px;
-    margin-left: -12px;
+    margin-left: -14px;
     display: none;
     z-index: 9999;
 }
@@ -141,6 +159,24 @@ em,i{
 .list_wang li:hover .img2_wang{
 	display: block;
 }
+
 .list_wang li:hover .t3_wang{
 	display: block;
+	border-top: none;
+	margin-left: -12px;
+	/*border: 10px solid #F0F0F0;*/
 }
+.list_wang li:hover .rec_wang{
+	display: block;
+}
+
+
+.xian_wang{
+	width: 1200px;
+	margin: 40px auto;
+	text-align: center;
+	font-weight: 900;
+	color: black;
+	font-size: 20px;
+}
+
