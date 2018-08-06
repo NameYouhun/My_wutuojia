@@ -2,9 +2,9 @@
 
 # dependencies
 /node_modules
-.gitignore
-*.json
-*.md
+/.gitignore
+/*.json
+/*.md
 
 # testing
 /coverage
