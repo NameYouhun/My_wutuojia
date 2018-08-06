@@ -399,9 +399,7 @@ class Main_wang extends React.Component{
 		)
 	}
 	
-	componentDidMount(){
-		
-	}
+	
 }
 
 export default Main_wang;
