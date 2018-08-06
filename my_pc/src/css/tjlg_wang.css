@@ -1,0 +1,86 @@
+
+.tjlg_wang{
+	width: 1200px;
+	margin: 0 auto;
+}
+.head_wang{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.head_wang h3{
+	background: url(../img/wtjicon.png) no-repeat 0px -227px;
+    width: 183px;
+    height: 44px;
+    display: inline-block;
+    text-indent: -9999px;
+}
+.head_wang .right{
+	display: flex;
+	margin-top: 20px;
+	color: #AAAAAA;
+	font-size: 14px;
+}
+.head_wang .right i{
+	background: url(../img/wtjicon.png) no-repeat -18px -26px;
+    width: 17px;
+    height: 17px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+
+.list2{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.list2 li{
+    margin-right: 25px;
+    width: 281px;
+}
+.list2 li .img4_wang{
+	width: 280px;
+	height: 280px;
+}
+.list2 li .img5_wang{
+    width: 60px;
+    height: 60px;
+    overflow: hidden;  
+    border-radius: 90px;
+    z-index: 2;  
+    display: inline-block;
+    margin-left: 110px;
+    margin-top: -30px;
+}
+
+.list2 li h6{
+	text-align: center;
+	color: #333;
+	line-height: 20px;
+}
+.list2 li h5{
+	color: #333;
+	font-size: 10px;
+	line-height: 20px;
+}
+.list2 li span em{
+	line-height: 52px;
+	font-size: 10px;
+}
+.list2 li span i{
+	background: url(../img/wtjicon.png) no-repeat 0px -47px;
+    width: 17px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 8px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.list2 li span i:hover{
+	background: url(../img/wtjicon.png) no-repeat -16px -47px;
+}
