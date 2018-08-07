@@ -198,10 +198,8 @@ class Main_smh extends React.Component{
 							</ul>
 						</li>
 					</ul>
+                    <h3 className = 'h3_wang'>__________</h3>
 				</div>
-				
-				
-				
 			</Router>
 		)
 	}

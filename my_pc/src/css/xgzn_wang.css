@@ -37,8 +37,7 @@
 .list4{
 	width: 1200px;
 	margin: 0 auto;
-	/*display: flex;
-	justify-content: space-between;*/
+	margin-bottom: 30px;
 }
 .list4 .li1{
 	position: relative;
@@ -174,4 +173,10 @@
     font-family: Microsoft Yahei;
     white-space: nowrap;  
 }
-
+.p1_wang{
+	height: 60px;
+	width: 90px;
+	margin: 60px auto;
+	border-bottom: 1px solid #333333;
+	margin-top: 430px;
+}
