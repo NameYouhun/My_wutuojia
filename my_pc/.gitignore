@@ -5,6 +5,7 @@
 /.gitignore
 /*.json
 /*.md
+/*.project
 
 # testing
 /coverage
