@@ -5,6 +5,8 @@ import {BrowserRouter as Router,Link,Route,Redirect,Switch}from 'react-router-do
 import Main_wang from "./main_wang"
 import Tjlg_wang from './tjlg_wang'
 import Xgzn_wang from './xgzn_wang'
+import Lbt_peng from './lbt_peng'
+
 
 class Home extends React.Component{
     constructor(props){
@@ -17,8 +19,9 @@ class Home extends React.Component{
                 <Sowing />
                 <Main_wang></Main_wang>
                 <Tjlg_wang></Tjlg_wang>
-				
+                
 				<Xgzn_wang></Xgzn_wang>
+				<Lbt_peng />
             </div>
         )
     }
