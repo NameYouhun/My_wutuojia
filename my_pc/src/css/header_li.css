@@ -27,6 +27,7 @@
 }
 .header_nav_lzh>li>a{
     float: left;
+    color: #333;
 }
 .header_nav_lzh> .zg_li_lzh{
     width: 150px;
