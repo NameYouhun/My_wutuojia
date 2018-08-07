@@ -1,0 +1,50 @@
+.pic_pjl{
+	position:relative;
+}
+
+.inner_pjl{
+	height:70px;
+	width:150px;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	margin:auto;
+	margin-bottom:90px;
+	display:flex;
+	justify-content: space-between;
+}
+.inner_pjl>.circle_pjl{
+	display:inline-block;
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	border:2px solid #fff;
+}
+.inner_pjl>.plus_pjl{
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	line-height:70px;	
+}
+.add_pjl{
+	font-size:12px;
+	color:#fff;
+	height:20px;
+	line-height:20px;
+	margin-top:10px;;
+}
+
+.inner_pjl>.circle_pjl{
+	color:#fff;
+	font-size:40px;
+	text-align: center;
+	line-height:70px;	
+}
+
+
+.qewr{
+	height:400px;
+	background:green;
+}
