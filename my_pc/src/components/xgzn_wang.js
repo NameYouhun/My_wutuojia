@@ -59,14 +59,10 @@ class Xgzn_wang extends React.Component{
 								<h2>滚筒洗衣机最好</h2>
 								<p>干净又省事</p>									
 							</div>
-						</li>
-						
-						
-						
+						</li>															
 					</ul>
 					
-					
-					
+					<p className = 'p1_wang'></p>
 				</div>
 			</Router>
 		)
