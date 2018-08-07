@@ -12,11 +12,6 @@ class Diy extends React.Component{
     }
     render(){
         return(
-<<<<<<< HEAD
-            <div>
-               
-            </div>
-=======
             <Router>
                 <div>
                     <div className="diy_top_router_lzh">
@@ -32,7 +27,6 @@ class Diy extends React.Component{
                     </div>
                 </div>
             </Router>
->>>>>>> master
         )
     }
 }
