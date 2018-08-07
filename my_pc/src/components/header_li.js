@@ -17,10 +17,10 @@ class Header_li extends React.Component{
                             <img src={logo} alt=""/>
                         </Link>
                         <ul className="fl header_nav_lzh">
-                            <li><Link to="/home">首页</Link></li>
-                            <li><Link to="/diy">搭配</Link></li>
-                            <li className="zg_li_lzh"><Link to="/item">商家</Link><span className="zg_span_lzh">大厂直供</span></li>
-                            <li><Link to="/idea">灵感</Link></li>
+                            <li onClick={this.tap.bind(this)}><Link to="/home">首页</Link></li>
+                            <li onClick={this.tap.bind(this)}><Link to="/diy" >搭配</Link></li>
+                            <li className="zg_li_lzh" onClick={this.tap.bind(this)}><Link to="/item">商家</Link><span className="zg_span_lzh">大厂直供</span></li>
+                            <li onClick={this.tap.bind(this)}><Link to="/idea">灵感</Link></li>
                         </ul>
                         <div className="fl header_ss_lzh">
                             <Link to="/home" className="header_icon_lzh"></Link>
@@ -42,6 +42,11 @@ class Header_li extends React.Component{
             </Router>
         )
     }
+    tap(){
+        window.location.reload();
+    }
+
+
 }
 
 

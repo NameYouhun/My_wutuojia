@@ -14,9 +14,17 @@
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
+<<<<<<< HEAD
 	<filteredResources>
 		<filter>
 			<id>1533541503150</id>
+=======
+<<<<<<< HEAD
+=======
+	<filteredResources>
+		<filter>
+			<id>1533540028462</id>
+>>>>>>> master
 			<name></name>
 			<type>26</type>
 			<matcher>
@@ -25,4 +33,8 @@
 			</matcher>
 		</filter>
 	</filteredResources>
+<<<<<<< HEAD
+=======
+>>>>>>> f53de794f77254921b54d9a9fc635f8731b7b121
+>>>>>>> master
 </projectDescription>
