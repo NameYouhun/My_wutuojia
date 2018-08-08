@@ -5,18 +5,25 @@ import { Carousel,Button,Icon } from 'antd'
 import '../css/sowing_pjl.css'
 
 
+<<<<<<< HEAD
 function onChange(a, b, c){
 //console.log(a, b, c);
 }
+=======
+>>>>>>> pengjunliang
 
 class Sowing extends React.Component{
 	constructor(props){
 		super(props)
 	}
 
+<<<<<<< HEAD
 	tap(){
 //		console.log('aaa');
 	}
+=======
+	
+>>>>>>> pengjunliang
 	
 	render(){
 		return(
@@ -135,11 +142,8 @@ class Sowing extends React.Component{
 					</ul>
 		
 		
-				<Carousel afterChange={onChange} autoplay="true" arrow="true" className="lb_pjl">
-						
-			    	
-			    		
-				    <div className="pic_pjl">
+				<Carousel  arrow="true" autoplay="true"  className="lb_pjl">
+				    <div className="pic_pjl" arrow='true'>
 					    	<img src={require('../img/164838_512322.jpg')} />
 					    	<div className='inner_pjl'>
 					    		<span className='circle_pjl plus_pjl'> 
@@ -152,11 +156,7 @@ class Sowing extends React.Component{
 					    		</span>
 					    	</div>
 				    </div>
-				    
-				    
-				    
-				    
-				    <div className="pic_pjl">
+				    <div className="pic_pjl" arrow='true'>
 				    		
 					    	<img src={require('../img/194526_508211.jpg')} />
 					    	<div className='inner_pjl'>
@@ -170,11 +170,7 @@ class Sowing extends React.Component{
 					    		</span>
 					    	</div>
 				    </div>
-				    
-				    
-				    
-				    <div className="pic_pjl">
-				    		
+				    <div className="pic_pjl" arrow='true'>
 					    	<img src={require('../img/201924_244482.jpg')} />
 					    	<div className='inner_pjl'>
 					    		<span className='circle_pjl plus_pjl'> 
@@ -188,7 +184,6 @@ class Sowing extends React.Component{
 					    	</div>
 				    </div>
 				</Carousel>
-			
 			</div>
 		)
 	}
