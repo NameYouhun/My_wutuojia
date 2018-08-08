@@ -1,0 +1,19 @@
+.diy_top_router_lzh{
+    width: 1200px;
+    height: 45px;
+    margin: 55px auto 25px;
+    text-align: center;
+}
+.diy_top_router_lzh .diy_top_link_lzh{
+    display: inline-block;
+    font-size: 18px;
+    color: #333;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.diy_margin_lzh{
+    margin: 0 60px;
+}
+.diy_border_lzh{
+    border-bottom: 2px solid #000;
+}
