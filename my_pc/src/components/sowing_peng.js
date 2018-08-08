@@ -6,7 +6,7 @@ import '../css/sowing_pjl.css'
 
 
 function onChange(a, b, c){
-  console.log(a, b, c);
+//console.log(a, b, c);
 }
 
 class Sowing extends React.Component{
@@ -15,7 +15,7 @@ class Sowing extends React.Component{
 	}
 
 	tap(){
-		console.log('aaa');
+//		console.log('aaa');
 	}
 	
 	render(){

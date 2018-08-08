@@ -1,0 +1,381 @@
+
+.ww_wang{	
+	border-bottom: 1px solid #999;
+}
+.list6_wang{
+	width: 1200px;
+    margin: 0 auto;
+	padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;   
+}
+.list6_wang li{
+    border-right: 1px solid #e1e1e1;
+    width: 220px;
+    text-align: center;   
+    padding-left: 15px;
+}
+.list6_wang li:last-child{
+	border: none;
+}
+.list6_wang li:nth-child(2) .home_wang .icon_wang{
+	background-position: -38px 3px;
+	height: 22px;
+    width: 33px;
+}
+.list6_wang li:nth-child(3) .home_wang .icon_wang{
+	background-position: -78px 0;
+	height: 21px;
+    width: 29px;
+}
+.list6_wang li:nth-child(4) .home_wang .icon_wang{
+	background-position: -113px 0;
+	height: 24px;
+    width: 30px;
+}
+.list6_wang li:nth-child(5) .home_wang .icon_wang{
+	background-position: -152px 0;
+	height: 23px;
+    width: 30px;
+}
+.list6_wang li .home_wang{
+	position: relative;
+	width: 135px;  
+	margin-left: 7px;  
+}
+.home_wang .icon_wang{
+	background-position: 0 0;
+    height: 22px;
+    width: 32px;
+    position: absolute;
+    left: 0px;
+    top: 4px;
+    background: url(../img/wtjcommodity.png) no-repeat;
+}
+.home_wang{
+	font-size: 20px;
+}
+.bot_wang{
+	text-align: left;	
+	font-size: 12px;
+	margin-top: 6px;
+	line-height: 20px;	
+	display: flex;
+	flex-wrap: wrap;
+	width: 155px;
+}
+.bot_wang span{
+	padding: 4px 6px;
+}
+
+
+
+.last_wang{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.last_wang h2{
+	color: #333333;
+	font-size: 18px;
+}
+.more_wang{
+	display: flex;
+    margin-top: 20px;
+    color: #AAAAAA;
+    font-size: 14px;
+}
+.more_wang span{
+	display: block;
+	padding: 0 14px;
+	height: 14px;
+	border-right: 1px solid #999;
+	font-size: 12px;
+	line-height: 14px;
+}
+.more_wang span:hover{
+	color: #333333;
+	cursor: pointer;
+}
+.more_wang .ss3_wang{
+	display: flex;
+	border: none;	
+}
+.more_wang .ss3_wang i{
+	display: block;
+	background: url(../img/wtjicon.png) no-repeat ;
+	background-position: -18px -26px;
+    width: 17px;
+    height: 17px;
+    margin-left: 7px;
+    margin-top: -1px;
+   
+}
+
+
+
+
+.list8_wang{
+	width: 1200px;
+	margin: 15px auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+
+.list8_wang li{
+	
+	width: 280px;
+    height: 405px;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+}
+.rec_wang{
+	background-color: #f0f0f0;
+    position: absolute;
+    display: none;
+    width: 300px;
+    height: 402px;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+.rec2_wang{
+	position: absolute;
+    padding: 12px;
+}
+.list8_wang li .t1_wang{
+	display: inline-block;
+    height: 276px;
+    width: 276px;
+    position: relative;
+    z-index: 2;
+    line-height: 276px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+}
+.list8_wang li .t1_wang img{
+	margin-left: 40px;
+}
+.list8_wang li .t2_wang{
+	position: relative;
+    z-index: 1;
+}
+
+.list8_wang li .img1_wang{
+	display: block;
+}
+.list8_wang li .img2_wang{
+	display: none;
+}
+.list8_wang li img{
+	max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;   
+}
+.list8_wang li span{
+	font-size: 12px;
+}
+.list8_wang li .s1_wang{
+	color: #CCCCCC;
+}
+.list8_wang li p{
+	font-size: 14px;
+}
+
+
+.t3_wang{
+	position: absolute;
+    background-color: #f0f0f0;
+    width: 300px;
+    padding: 12px;
+    padding-left: 18px;
+    margin-left: -14px;
+    display: none;
+    z-index: 9999;
+}
+.t3_wang a{
+	color: #999;
+    font-size: 12px;
+}
+
+
+.size_wang{
+	color: #aaa;
+	font-size: 12px;
+}
+.size_wang label{
+	float: left;
+}
+.size_wang div{
+	float: left;
+}
+
+
+.list8_wang li:hover .img1_wang{
+	display: none;
+}
+.list8_wang li:hover .img2_wang{
+	display: block;
+}
+
+.list8_wang li:hover .t3_wang{
+	display: block;
+	border-top: none;
+	margin-left: -12px;
+	/*border: 10px solid #F0F0F0;*/
+}
+.list8_wang li:hover .rec_wang{
+	display: block;
+}
+
+
+.pp_wang{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+    flex-direction: column;
+}
+.head_wang{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+.head2_wang h2{
+  float: left;
+}
+.head2_wang .right2{
+	float: right;
+	display: flex;
+	margin-top: 10px;
+	color: #AAAAAA;
+	font-size: 14px;
+}
+.head2_wang .right2 i{
+	background: url(../img/wtjicon.png) no-repeat -18px -26px;
+    width: 17px;
+    height: 17px;
+    margin-left: 7px;
+    margin-top: 1px;
+}
+
+.mboo_wang{
+	/*height: 385px;*/
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.mleft_wang{
+	width: 275px;
+    height: 385px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+.mleft_wang div{
+	position: relative;
+	height: 385px;
+    width: 275px;
+}
+.mleft_wang div .i1_wang{
+	height: 385px;
+    width: 275px;
+}
+.mleft_wang div .i3_wang{
+	z-index: 2222;
+	width: 204px;
+    height: 53px;
+}
+.mleft_wang div .i2_wang{
+	z-index: 2222;
+	max-height: 80px;
+	width: 80px;
+    vertical-align: middle;
+}
+.mleft_wang div .mm2_wang{
+	position: absolute;
+	top: 20px;
+}
+.mleft_wang div .mm1_wang{
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+.mleft_wang div h2{
+	z-index: 0;
+	position: absolute;
+	right: 0;
+	bottom: 20px;
+	background: black;
+	opacity: .5;
+	color: white;
+	width: 275px;
+	line-height: 30px;
+	padding-bottom: 5px;
+}
+.mleft_wang div h2 span{
+	padding: 0 20px;
+	font-size: 16px;
+	
+	color: white;
+	margin-left: 110px;
+}
+.mright_wang{
+	display: flex;
+	flex-direction: column;
+}
+
+.to_wang li{
+	position: relative;
+    float: left;
+    margin-left: 28px;
+    width: 280px;
+    height: 260px;
+}
+.to_wang li .ie2_wang{
+	width: 280px;
+    height: 260px;
+}
+.to_wang li .ie3_wang{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.to_wang li .ie4_wang{
+	border: 8px solid white;
+	max-width: 80px;
+    max-height: 80px;
+    position: absolute;
+    left: 100px;
+    top: 90px;    
+}
+
+.to2_wang{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 28px;
+    
+}
+
+.too2_wang{
+	margin-top: 8px;
+	border: 1px solid #999999;
+	
+}
+.to2_wang .i2_wang{
+	height: 100px;
+	width: 100px;
+	border: 12px solid white;
+}
