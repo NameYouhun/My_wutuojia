@@ -1,0 +1,111 @@
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+
+.anniu_peng{
+	width:1200px;
+	margin:55px auto;
+	text-align: center;
+}
+.dapei_pjl{
+	display:inline-block;
+	width:160px;
+	height:45px;
+	background:#000000;
+	border-radius:22.5px;
+	color:#fff;
+	line-height:45px;
+	margin-right:20px;
+	
+}
+
+.rzsj_pjl{
+	display:inline-block;
+	width:160px;
+	height:45px;
+	background:#ee4848;
+	color:#fff;
+	line-height:45px;
+	border-radius:22.5px;
+}
+.fang_pjl{
+	display:inline-block;
+	width:32px;
+	height:22px;
+	vertical-align: middle;
+	margin-right:10px;
+	background:url(../img/commodityicon.png) no-repeat 0 -148px;
+}
+.pro_pjl{
+	display:inline-block;
+	width:32px;
+	height:14px;
+	background:url(../img/commodityicon.png) no-repeat 0 -173px;
+	margin-right:10px;
+	vertical-align: middle;
+
+}
+.aa_pjl:hover{
+	opacity:0.1;
+	color:#fff;
+}
+
+.main_pjl{
+	width:1240px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.list_pjl{
+	width:280px;
+	min-height:200px;
+	margin-right:24px;
+	margin-bottom:60px;
+	border:1px solid #cecece;
+	float:left;
+}
+.tot_pjl{
+	margin:0 auto;
+}
+
+.head_pjl{
+	width:100%;
+	height:99px;
+	background:#ddd;
+	position:relative;
+	text-align: center;
+	display:flex;
+	justify-content: center;
+}
+.guanzhu_pjl{
+	width:55px;
+	height:22px;
+	background:#ee4848;
+	position:absolute;
+	top:10px;
+	right:10px;
+	font-size:12px;
+	line-height:22px;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+}
+.toux_pjl{
+	width:100px;
+	height:100px;
+	background:url("../img/151322_329059.jpg") no-repeat left top/cover;
+	margin-top:20px;
+	border-radius:50%;
+}
+.name_pjl{
+	width:100%;
+	background:red;
+	margin-top:30px;
+	text-align: center;
+	height:16px;
+	line-height:16px;
+}
