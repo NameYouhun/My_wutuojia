@@ -399,12 +399,11 @@ class Main_wang extends React.Component{
 		)
 	}
 	
-	componentDidMount(){
-		$('.rec2_wang').hover(function(){
-			
-			$(this).children('.t3_wang').slideToggle('show')
-		},function(){
-			$(this).children('.t3_wang').hide();
+	componentDidMount(){				
+		$('.rec2_wang').hover(function(){			
+			$(this).children('.t3_wang').stop(true,false).slideToggle('show')			
+		},function(){			
+			$(this).children('.t3_wang').hide()		
 		})
 	}
 	
